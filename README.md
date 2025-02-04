@@ -1,2 +1,2 @@
-# Assignment-1-Web-Development
-Inlämningsuppgift 1 
+# Assignment-2-Web-Development
+Inlämningsuppgift 2 
