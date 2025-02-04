@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlämning 2</title>
+    <!-- REF SHEET FÖR STYLING OCH IKONS!-->
+    <link rel="icon" type="bilder/x-icon" href="bilder/favicon1.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--NAV MENU FUNKTION-->
+    <nav class="navmeny">
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i>Hem</a></li> 
+            <li><a href="Sida2.html"><i class="fa-solid fa-clock-rotate-left"></i>Internetsutveckling</a></li>
+            <li><a href="Sida3.html"><i class="fa-solid fa-timeline"></i>Webbhistoria</a></li>
+            <li><a href="Sida4.html"><i class="fa-solid fa-scale-balanced"></i>Webblagar</a></li>
+        </ul>
+    </nav>
+
+    
+ <!--FUNKTION FÖR STYLING AV INTRO-->
+    <main>
+    <div class="intro-cont">
+    <h1 class="intro-bnr">Internetsutveckling</h1>
+    <p class="intro-text">Svar till frågor 1 till 15</p>
+    </div> 
+    <br>
+    <h3>Frågor till internetsutveckling</h3>
+       <!--FUNKTION OCH SVARS FRÅGOR-->         
+<label class="toggle-button" for="toggle1">Frågor 1-5 <i class="fa-regular fa-circle-question"></i></label>
+<input type="checkbox" id="toggle1" style="display: none;">
+               
+    <section class="section-content">
+        <div class="question-section">
+           
+                <li>1. När startade utvecklingen av Internet? Vad startade utvecklingen?</li>
+                     <p>Idén om ett "intergalaktiskt datornätverk" togs fram av <a href="https://en.wikipedia.org/wiki/J._C._R._Licklider" target=_blank">J.C.R Licklider</a> år 1963.</p>
+        </div>
+        <div class="question-section">
+                <li>2. Vad var Internet tänkt för i början?</li>
+                     <p>Tanken med internet var att skapa ett pålitligt och säkert kommunikationsnätverk under kalla kriget.</p>
+        </div>
+        <div class="question-section">
+            <li>3. Vad är ARPA?</li>
+                 <p><a href="https://sv.wikipedia.org/wiki/ARPA" target="_blank">ARPA </a> (Advanced Research Projects Agency) grundades under kalla kriget år 1958.</p>
+        </div>
+        <div class="question-section">
+            <li>4. Vad heter nätet som var grunden till Internet?</li>
+                 <p><a href="https://sv.wikipedia.org/wiki/Arpanet" target="_blank">ArpaNET</a>, utvecklad av ARPA och började användas 1969.</p>
+            </div>
+        <div class="question-section">
+            <li>5. Varför kunde ingen dator vara centraldator?</li>
+                 <p>Ingen dator kunde vara centraldator eftersom en attack skulle stoppa all kommunikation.</p>
+            <br>
+                 <p>Genom att det decentraliserade nätverket kunde flera användare kommunicera samtidigt och på samma gång göra alla datorer oberoende av en centraldator.
+                 Det säkerställer två saker, ett att nätverket kunde fortsätta även om vissa noder kopplas bort, två att prestandan blir bättre då ArpaNET baseras på <a href="https://en.wikipedia.org/wiki/Packet_switching" target="_blank">packet switching</a>
+                 .
+                 </p>
+            
+        </div>
+</section>
+
+<br>
+  <!--FUNKTION OCH SVARS FRÅGOR-->
+<label class="toggle-button" for="toggle2">Frågor 6-10 <i class="fa-regular fa-circle-question"></i></label>
+<input type="checkbox" id="toggle2" style="display: none;">
+
+<section class="section-content">
+     <div class="question-section">
+         <li>6. Vad är fördelen med distribuerat nätverk i stället för centraliserat?</li>
+             <p>Fördelen med ett distribuerat nätverk är att nätverket skyddar sig från attacker eller errors genom att utesluta en centraldator.
+             En centraldator kan bli överbelastad då den används för all kommunikation, vilket orsakar en bottleneck.
+             Genom att tillåta alla datorer att direkt kommunicera med varandra via ett packet switching system undviker man att infrastrukturen försätter även om en del av den förstörs.
+             </p>
+     </div>
+    
+     <div class="question-section">
+         <li>7. Vad står www för?</li>
+             <p>
+             WWW står för <a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">WorldWideWeb</a>
+             </p>
+     </div>
+     <div class="question-section">
+        <li>8. Vad är IP-nummer och hur fungerar de?</li>
+    <p>
+    Ett IP-nummer alternativt IP-adress är ett unikt nummer som tilldelas till din dator/enhet för att kommunicera på internet. 
+    Internet Protocol Address v4 är den vanligaste IP-adressen och är baserad på ett 2^32-binära system  vilket innebär att det finns ca 4,3 miljarder adresser.
+    Det fungerar med att identifiera IP-adresserna och sedan kan data-paket skickas från avsändarens IP till mottagarens IP.
+    </p>
+</div>
+<div class="question-section">
+        <li>9. Vad är syftet med TCP?</li>
+    <p>
+     TCP/IP (Transmission Control Protocol) garanterar att all data som skickas mellan två IP-adresser kommer fram korrekt och i rätt ordning.
+     Den justerar mängden data och förhindrar överbelastning samt säkerställer en effektiv kommunikation samtidigt som den felsöker kommunikationen via en three-way handshake.
+    </p>
+</div>
+<div class="question-section">
+        <li>10. När blev Internet populärt för vanliga människor?</li>
+    <p>
+    Internet började användas så tidigt som 1990 när konceptet WWW togs fram av <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank"> Tim Berners-Lee </a>men då den vanliga arbetarklassen inte hade tillgång till datorer ansågs
+    internet bli mainstream i USA 1996 och vid 2001 användes det över hela världen.
+    </p>
+</div>
+    </section>
+<br>
+<!--FUNKTION OCH SVARS FRÅGOR-->
+<label class="toggle-button" for="toggle3">Frågor 11-15 <i class="fa-regular fa-circle-question"></i></label>
+<input type="checkbox" id="toggle3" style="display: none;">
+
+<section class="section-content">
+    <div class="question-section">
+     <li>11. Med vilket protokoll kommunicera man över internet?</li>
+     <p>De protokoll som används över internet är HTTPS, UDP, TCP, FTP, SSH.
+      Man kan även kolla på <a href="https://sv.wikipedia.org/wiki/OSI-modellen" target="_blank">OSI</a> modellen för att få en uppfattning om hur det fungerar.
+     </p>
+ </div>
+ <div class="question-section">
+    <li>12. Vilket språk var föregångaren till HTML?</li>
+    <p>
+    Innan HTML använde man sig av SGML (Standard Generalized Markup Language) som utvecklades 1980 och anses vara mer komplex och användarovänlig.
+    SGML var utvecklad för att skapa och definiera olika typer av dokument på internet men användes inte så länge då en tidig version av HTML togs fram 1991.
+    </p>
+</div>
+<div class="question-section">
+    <li>13. Vad var Gopher?</li>
+    <p> 
+    <a href="https://sv.wikipedia.org/wiki/Gopher" target="_blank">Gopher</a> skapades av <a href="https://en.wikipedia.org/wiki/Mark_P._McCahill" target ="_blank">Mark P. McCahill</a> år lanserades 1991. Den var mappbaserad, vilket innebär att navigeringen sker genom att klicka på kategoriernas 
+    rubriker för att surfa runt på internet. Den har numera gjort sin del på internet då den togs över av WWW konceptet.
+    </p>
+</div>
+<div class="question-section">
+        <li>14. Vilka var de första webbläsarna?</li>
+        <p>
+            De första webbläsarna som användes var 
+            WorldWideWeb (Nexus) Skapad av <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners-Lee</a> lanserades 1991 och är vad vi främst använder idag.
+            Mosaic Skapad av Marc Andreessen och Eric Bina och lanserades 1993 och stödjer bilder med text 
+            vilket gjorde internet attraktivt.
+            Netscape Navigator Skapad av Marc Andreessen lanserades 1994 vilket var en slimmad och mer välutvecklad version av Mosaic
+            Internet Explorer Skapad av Microsoft och lanserades 1995 och blev snabbt den mest populära webbläsaren då den använde allt i ett
+        </p>
+</div>
+ <div class="question-section">
+        <li>15. När började vanliga personer att använda datorer?</li>
+        <p>Redan 1970 började datorer användas då <a href="https://en.wikipedia.org/wiki/Personal_computer" target="_blank">PC (Personal Computer)</a> konceptet togs fram
+        1980 började PC bli vanligare bland folket och det såldes till allmänheten.
+        1995 lanserades Microsoft Windows 95 med sin nya IE (Internet Explorer) och tog allmänheten med storm då folk började förstå vad en PC i kombination med internet är.
+        2000 blev PC en del av vardagen, även om den ansågs vara en lyxprodukt så fanns den i nästan alla hushåll och i det tidigare steget i PC/Internet kombo historia började.
+        </p>
+</div>
+    </section>
+        
+    </main>
+    
+</body>
+<!--FOOTER FÖR LÄNGST NER I SIDAN-->
+<footer class="footer">
+    <p><i class="fa-brands fa-slack icon-style"></i> Project Astar: Tommy Osmark | Kurskod: EX AFR-DI</p>
+</footer>
+
+</html>

@@ -1,0 +1,150 @@
+*
+/*BAKGRUND STYLE*/
+body {
+    background-image: url('bilder/pic3.jpg');
+    background-size: cover;  
+    background-position: center center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+main{
+    margin: 20px;
+    padding: 20px;
+/*NAVBAR MENY*/
+}
+.navmeny ul{
+    list-style-type: none;
+    background-color: hsl(195, 53%, 79%);
+    padding: 10px;
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.navmeny a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+.navmeny a:hover{
+    background-color: hsl(195, 53%, 69%);
+}
+.navmeny li{
+    float: left;
+}
+
+.navmeny i{
+    margin-right: 8px;
+}
+li{
+    font-weight: bold;
+}
+/*INTRO BANNER*/
+.intro-cont {
+    background-color: rgba(117, 181, 214, 0.1); 
+    border: 2px solid #75b5d6; 
+    padding: 20px; 
+    border-radius: 5px;
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.intro-cont h1 {
+    font-size: 32px; 
+    color: #333; 
+}
+
+.intro-cont p {
+    font-size: 18px; 
+    color: #333; 
+}
+
+
+/* KNAPP MENU STYLE OCH FUNKTION*/
+.section-content {
+    display: none; 
+    margin-top: 10px;
+}
+
+#toggle1:checked + .section-content {
+    display: block;
+}
+#toggle2:checked + .section-content {
+    display: block; 
+}
+ 
+#toggle3:checked + .section-content {
+    display: block; 
+}
+.toggle-button {
+    background-color: #75b5d6; 
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    display: block;
+    border-radius: 5px;
+}
+
+.toggle-button:hover {
+    background-color: #5e99c2;
+}
+
+.question-section {
+    background-color: rgba(117, 181, 214, 0.1);
+    border: 2px solid #75b5d6;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.section-content li {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+a{
+    text-decoration: none;
+}
+/*FOOTER STYLE*/
+.footer {
+    background-color: #75b5d6; 
+    color: white; 
+    text-align: center; 
+    padding: 5px; 
+    position: relative; 
+    width: 100%; 
+    font-size: 12px; 
+    margin-top: auto; 
+    border-radius: 5px;
+}
+
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+}
+/*FÖR COPYLEFT BILD*/
+.linjecp-img{
+    display: inline-block;  
+    width: 30px;           
+    height: auto;           
+    margin-left: 10px;      
+    margin-right: 10px;
+}
+.icon-style {
+    font-size: 20px; 
+    margin-left: -20px; 
+    vertical-align: middle; 
+}
+
